@@ -2,9 +2,9 @@ import { useState } from 'react';
 
 const Home = () => {
     const [blogs, setBlogs] = useState([
-        { title: 'My new website', body: 'lorem ipsum...', author: 'Natalia', id: 1},
-        { title: 'Welcome home', body: 'lorem ipsum...', author: 'Briana', id: 2},
-        { title: 'Dev top tips', body: 'lorem ipsum...', author: 'Vladimir', id: 3},
+        { title: 'My New Website', body: 'lorem ipsum...', author: 'Natalia', id: 1},
+        { title: 'Welcome Home', body: 'lorem ipsum...', author: 'Briana', id: 2},
+        { title: 'Dev Top Tips', body: 'lorem ipsum...', author: 'Vladimir', id: 3},
     ]);
 
     return (
