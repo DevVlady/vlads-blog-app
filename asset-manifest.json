@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/vlads-blog-app/static/css/main.852eb667.chunk.css",
+    "main.js": "/vlads-blog-app/static/js/main.1100be2d.chunk.js",
+    "main.js.map": "/vlads-blog-app/static/js/main.1100be2d.chunk.js.map",
+    "runtime-main.js": "/vlads-blog-app/static/js/runtime-main.872a49a4.js",
+    "runtime-main.js.map": "/vlads-blog-app/static/js/runtime-main.872a49a4.js.map",
+    "static/js/2.061f8a26.chunk.js": "/vlads-blog-app/static/js/2.061f8a26.chunk.js",
+    "static/js/2.061f8a26.chunk.js.map": "/vlads-blog-app/static/js/2.061f8a26.chunk.js.map",
+    "index.html": "/vlads-blog-app/index.html",
+    "static/css/main.852eb667.chunk.css.map": "/vlads-blog-app/static/css/main.852eb667.chunk.css.map",
+    "static/js/2.061f8a26.chunk.js.LICENSE.txt": "/vlads-blog-app/static/js/2.061f8a26.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.872a49a4.js",
+    "static/js/2.061f8a26.chunk.js",
+    "static/css/main.852eb667.chunk.css",
+    "static/js/main.1100be2d.chunk.js"
+  ]
+}
