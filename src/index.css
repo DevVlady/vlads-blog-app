@@ -5,7 +5,7 @@
   margin: 0;
   font-family: "Montserrat";
   color: #333;
-  background: #29c2ff;
+  background: #79a6b8;
 }
 
 .navbar {
@@ -18,7 +18,7 @@
 }
 
 .navbar h1 {
-  color: #f1356d;
+  color: #1b0761;
 }
 
 .navbar .links {
@@ -32,7 +32,7 @@
 }
 
 .navbar a:hover {
-  color: #f1356d;
+  color: #1b0761;
 }
 
 .content {
@@ -54,7 +54,7 @@
 
 .blog-preview h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #1b0761;
   margin-bottom: 8px;
 }
 
@@ -65,7 +65,7 @@
 /* Blog details page */
 .blog-details h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #1b0761;
   margin-bottom: 10px;
 }
 
@@ -74,7 +74,7 @@
 }
 
 .blog-details button {
-  background: #f1356d;
+  background: #1b0761;
   color: #fff;
   border: 0;
   padding: 8px;
@@ -96,7 +96,7 @@
 
 .create h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #1b0761;
   margin-bottom: 30px;
 }
 
@@ -110,7 +110,7 @@
 }
 
 .create button {
-  background: #f1356d;
+  background: #1b0761;
   color: #fff;
   border: 0;
   padding: 8px;
@@ -127,7 +127,7 @@
 
 .not-found h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #1b0761;
   margin-bottom: 30px;
 }
 
@@ -138,7 +138,7 @@
 
 .not-found a {
   text-decoration: none;
-  background: #f1356d;
+  background: #1b0761;
   color: #fff;
   border: 0;
   padding: 8px;
