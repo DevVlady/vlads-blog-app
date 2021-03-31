@@ -35,6 +35,12 @@
       "body": "5y4y",
       "author": "Vladimir",
       "id": 6
+    },
+    {
+      "title": "Vladimir & B",
+      "body": "This is another test to see if this works in redirecting the user to the home page.",
+      "author": "Vladimir",
+      "id": 7
     }
   ]
 }

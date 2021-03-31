@@ -1,10 +1,12 @@
 import { useState } from "react";
+import {useHistory} from 'react-router-dom';
 
 const Create = () => {
     const [title, setTitle] = useState('');
     const [body, setBody] = useState('');
     const [author, setAuthor] = useState('Vladimir');
     const [isPending, setIsPending] = useState(false);
+    const history = useHistory();
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -12,6 +14,7 @@ const Create = () => {
 
         setIsPending(true);
 
+        // Used to post the new blog to the db.json file
         fetch('http://localhost:8000/blogs', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -19,6 +22,11 @@ const Create = () => {
         }).then(() => {
             console.log('new blog added');
             setIsPending(false);
+            // This will make the user go back one page
+            // history.go(-1);
+
+            // This will reroute to the home page
+            history.push('/');
         })
     }
 
@@ -48,6 +56,7 @@ const Create = () => {
                     <option value="Vladimir">Vladimir</option>
                     <option value="Briana">Briana</option>
                 </select>
+                {/* Used to display to the user blog is being added */}
                 {!isPending && <button>Add Blog</button>}
                 {isPending && <button disabled>Adding Blog...</button>}
                 <p>{title}</p>
